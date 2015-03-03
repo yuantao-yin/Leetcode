@@ -14,7 +14,6 @@ public class NQueens {
 	
 	private void search(int n, ArrayList<Integer> cols, ArrayList<String[]> rst) {
 		if (cols.size() == n) {
-			System.out.println(cols);
 			rst.add(drawChessboard(cols));
 			return;
 		}
