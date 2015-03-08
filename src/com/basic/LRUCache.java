@@ -46,4 +46,19 @@ public class LRUCache {
     cur.next = tail;
     
   }
+  
+  public void set(int key, int value) {
+    if (map.get(key) != -1) {
+      map.get(key).value = value;
+      return;
+    }
+    if (map.size() == capacity) {
+      map.remove(head.next.key);
+      head.next = head.next.next;
+      head.next.prev = head;
+    }
+    Node insert = new Node(key, value);
+    map.put(key, insert);
+    move_to_tail(insert);
+  }
 }
