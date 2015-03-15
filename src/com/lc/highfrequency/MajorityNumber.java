@@ -3,7 +3,7 @@ import java.util.*;
 
 public class MajorityNumber {
 
-	public static int majorityNumber(ArrayList<Integer> nums) {
+	public int majorityNumber(ArrayList<Integer> nums) {
         int candidate = 0;
         int count = 0;
         
