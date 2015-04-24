@@ -1,4 +1,4 @@
-public class Solution {
+public class RecoverRotatedSortedArray {
     /**
      * @param nums: The rotated sorted array
      * @return: The recovered sorted array
