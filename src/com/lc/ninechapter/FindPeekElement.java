@@ -1,3 +1,5 @@
+package com.lc.ninechapter;
+
 class FindPeekElement {
     /**
      * @param A: An integers array.

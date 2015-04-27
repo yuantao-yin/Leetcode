@@ -1,3 +1,5 @@
+package com.lc.ninechapter;
+
 import java.util.*;
 
 class MedianOfTwoSortedArrays {

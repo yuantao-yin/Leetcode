@@ -1,3 +1,6 @@
+package com.lc.ninechapter;
+
+import java.util.*;
 public class SearchForRange {
     /** 
      *@param A : an integer sorted array
