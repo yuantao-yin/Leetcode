@@ -1,4 +1,4 @@
-public class Solution {
+public class Atoi {
     /**
      * @param str: A string
      * @return An integer
