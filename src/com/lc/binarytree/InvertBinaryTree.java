@@ -1,3 +1,6 @@
+package com.lc.binarytree;
+
+
 /**
  * Definition of TreeNode:
  * public class TreeNode {
@@ -9,7 +12,7 @@
  *     }
  * }
  */
-public class Solution {
+public class InvertBinaryTree {
     /**
      * @param root: a TreeNode, the root of the binary tree
      * @return: nothing

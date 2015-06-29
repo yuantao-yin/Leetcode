@@ -1,3 +1,5 @@
+package com.lc.ladder.us.string;
+
 public class LongestCommonPrefix {
     /**
      * @param strs: A list of strings

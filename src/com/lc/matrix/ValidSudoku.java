@@ -1,3 +1,7 @@
+package com.lc.matrix;
+
+import java.util.*;
+
 class Solution {
     /**
       * @param board: the board

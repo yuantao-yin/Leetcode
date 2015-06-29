@@ -1,4 +1,8 @@
-public class Solution {
+package com.lc.matrix;
+
+import java.util.*;
+
+public class SudokuSolver {
     public void solveSudoku(char[][] board) {
         solve(board);
     }

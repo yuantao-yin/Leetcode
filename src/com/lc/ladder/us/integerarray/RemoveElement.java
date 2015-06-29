@@ -1,3 +1,5 @@
+package com.lc.ladder.us.integerarray;
+
 public class RemoveElement {
     /** 
      *@param A: A list of integers
