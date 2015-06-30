@@ -1,3 +1,5 @@
+package com.lc.ladder.us.integerarray;
+
 public class FirstMissingPositive {
     /**Thought:
      * 1 - most sorting algorithms take time at least O(nlogn).
