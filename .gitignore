@@ -32,8 +32,7 @@ hs_err_pid*
 .idea/uiDesigner.xml
 
 # Gradle:
-.idea/gradle.xml
-.idea/libraries
+.idea/
 
 *.DS_Store
 .AppleDouble
