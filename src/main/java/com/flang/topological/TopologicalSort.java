@@ -1,4 +1,4 @@
-package main.java.com.flang.topological;
+package com.flang.topological;
 
 import java.util.Arrays;
 import java.util.Iterator;

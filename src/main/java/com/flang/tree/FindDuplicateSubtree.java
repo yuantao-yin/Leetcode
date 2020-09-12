@@ -1,4 +1,4 @@
-package main.java.com.flang.tree;
+package com.flang.tree;
 
 
 import java.util.ArrayList;

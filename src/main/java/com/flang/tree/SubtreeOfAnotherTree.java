@@ -1,4 +1,4 @@
-package main.java.com.flang.tree;
+package com.flang.tree;
 
 /*
 572. Given two non-empty binary trees s and t, check whether tree t has exactly the same structure and
