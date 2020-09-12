@@ -8,13 +8,9 @@ version '1.0-SNAPSHOT'
 repositories {
     mavenCentral()
 }
-sourceSets {
-    main {
-        java {
-            srcDirs = ['src']
-        }
-    }
-}
+
+sourceCompatibility = 1.8
+
 dependencies {
     compile 'junit:junit:4.12'
 }
