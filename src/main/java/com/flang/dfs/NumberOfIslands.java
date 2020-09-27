@@ -1,4 +1,4 @@
-package main.java.com.flang.dfs;
+package com.flang.dfs;
 
 public class NumberOfIslands {
 

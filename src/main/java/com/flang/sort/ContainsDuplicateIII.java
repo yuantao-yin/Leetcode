@@ -1,4 +1,4 @@
-package main.java.com.flang.sort;
+package com.flang.sort;
 
 import java.util.TreeSet;
 
