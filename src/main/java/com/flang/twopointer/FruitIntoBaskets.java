@@ -9,7 +9,7 @@ public class FruitIntoBaskets {
         if (tree.length == 0) return 0;
         int max = 0;
         int left = 0;
-        // use hashmap to track how many types of fruits we can have 
+        // use hashmap to track how many types of fruits we can have
         Map<Integer, Integer> map = new HashMap<>();
         for (int right = 0; right < tree.length; right++) {
             map.put(tree[right], map.getOrDefault(tree[right], 0) + 1);
