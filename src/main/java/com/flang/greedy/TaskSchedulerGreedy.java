@@ -1,4 +1,4 @@
-package com.flang.queue;
+package com.flang.greedy;
 
 import java.util.*;
 
