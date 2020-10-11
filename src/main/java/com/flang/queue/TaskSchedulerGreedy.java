@@ -28,6 +28,7 @@ public class TaskSchedulerGreedy {
         for (char c : tasks) {
             map.put(c, map.getOrDefault(c, 0) + 1);
         }
+        // create a maxHeap to keep track most frequent tasks
         PriorityQueue<Integer> maxHeap = new PriorityQueue<>((a, b) -> b - a);
         maxHeap.addAll(map.values());
 
@@ -40,6 +41,8 @@ public class TaskSchedulerGreedy {
                 }
             }
             for (int i : temp) {
+                // if i-1 is not 0, we know the current task is still need to be run
+                // so we add it back the maxHeap
                 if (--i > 0) {
                     maxHeap.add(i);
                 }
