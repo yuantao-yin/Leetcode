@@ -7,28 +7,22 @@ public class SpiralMatrixII {
         int [][] rst = new int[n][n];
         int left = 0, top = 0;
         int right = n - 1, bottom = n - 1;
-        int size = n * n;
-        int count = 0;
         int num = 1;
-        while (count < size) {
-            for (int i = left; i <= right && count < size; i++) {
+        while (left <= right && top <= bottom) {
+            for (int i = left; i <= right; i++) {
                 rst[top][i] = num++;
-                count++;
             }
             top++;
-            for (int i = top; i <= bottom && count < size; i++) {
+            for (int i = top; i <= bottom; i++) {
                 rst[i][right] = num++;
-                count++;
             }
             right--;
-            for (int i = right; i >= left && count < size; i--) {
+            for (int i = right; i >= left; i--) {
                 rst[bottom][i] = num++;
-                count++;
             }
             bottom--;
-            for (int i = bottom; i >= top && count < size; i--) {
+            for (int i = bottom; i >= top; i--) {
                 rst[i][left] = num++;
-                count++;
             }
             left++;
         }
