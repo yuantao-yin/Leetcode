@@ -50,7 +50,7 @@ public class TopologicalSort {
             Iterator<Integer> it = adj[v].iterator();
             while (it.hasNext()) {
                 i = it.next();
-                if (visited[i] == false) {
+                if (!visited[i]) {
                     helper(i, visited, stack);
                 }
             }
