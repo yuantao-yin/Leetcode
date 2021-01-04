@@ -4,6 +4,7 @@ package com.lc.string;
  * LC 409
  */
 public class LongestPalindrome {
+
     public int longestPalindrome(String s) {
         int[] arr = new int[128];
         for (char c : s.toCharArray()) {
